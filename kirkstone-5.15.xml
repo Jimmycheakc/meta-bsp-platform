@@ -13,7 +13,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/nxp-imx-support" name="imx-support"/>
 
-  <project name="meta-bsp-base" path="sources/base" remote="Jimmycheakc" revision="9db903f528f8b476c44ad656c2ce3b594b4ca683" upstream="kirkstone">
+  <project name="meta-bsp-base" path="sources/base" remote="Jimmycheakc" revision="d23b88cbd26a6aa731c1850f58b0a474a6d0c895" upstream="kirkstone">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -23,7 +23,7 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="6d8213fc5ec192c33f963b8095d1f01af1574eea" upstream="kirkstone"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="fc15f5003043da23212596be7366ae2547c308ad" upstream="kirkstone"/>
 
-  <project name="meta-daviscomms" path="sources/meta-daviscomms" remote="Jimmycheakc" revision="b1f74f19c87bc9d5e6db2b1ad44b8a94c8d56c0f" upstream="kirkstone">
+  <project name="meta-daviscomms" path="sources/meta-daviscomms" remote="Jimmycheakc" revision="5db24fc04c7063addd6540749adf28746df8882c" upstream="kirkstone">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
     <linkfile dest="README-IMXBSP" src="README"/>
   </project>
